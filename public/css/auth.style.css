@@ -1,11 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
-* {
-	box-sizing: border-box;
-}
 
-body {
+
+.auth-container {
 	background: #f6f5f7;
 	display: flex;
 	justify-content: center;
@@ -16,15 +14,6 @@ body {
 	margin: -20px 0 50px;
 }
 
-h1 {
-	font-weight: bold;
-	margin: 0;
-  font-size: 1.7rem;
-}
-
-h2 {
-	text-align: center;
-}
 
 p {
 	font-size: 14px;
@@ -38,7 +27,7 @@ span {
 	font-size: 12px;
 }
 
-a {
+.forgot-password {
 	color: #333;
 	font-size: 14px;
 	text-decoration: none;
@@ -55,9 +44,13 @@ button {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	cursor: pointer;
 }
 
-.title {
+.form-title {
+  font-weight: bold;
+	margin: 0;
+  font-size: 2.9rem;
   margin: 15px 0;
 }
 
@@ -74,7 +67,7 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
-form {
+.auth-form {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -164,8 +157,8 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background:rgba(0, 40, 60, 1);
+	background: -webkit-linear-gradient(to right, rgba(0, 40, 60, 1), rgba(0, 143, 213, 1));
 	background: linear-gradient(114.9deg, rgba(34, 34, 34, 1) 8.3%, rgba(0, 40, 60, 1) 41.6%, rgba(0, 143, 213, 1) 93.4%);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -213,19 +206,4 @@ input {
 
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);
-}
-
-.social-container {
-	margin: 20px 0;
-}
-
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
 }

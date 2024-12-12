@@ -26,8 +26,12 @@ function Layout({ user, title, children }) {
           integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
           crossOrigin=""
         ></script>
-        <script defer src="https://kit.fontawesome.com/2bb261e3ba.js" crossOrigin="anonymous"></script>
-        <script defer src="/js/main.js" />
+        <script
+          defer
+          src="https://kit.fontawesome.com/2bb261e3ba.js"
+          crossOrigin="anonymous"
+        ></script>
+        <script defer src="/js/new.js" />
         <script defer src="/js/auth.js" />
 
         <title>{title}</title>

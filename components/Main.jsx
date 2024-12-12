@@ -15,6 +15,7 @@ function Main({ error, username }) {
                 <select className="form__input form__input--type">
                   <option value="running">Бег</option>
                   <option value="cycling">Велосипед</option>
+                  <option value="swimming">Плавание</option>
                 </select>
               </div>
               <div className="form__row">
@@ -43,6 +44,20 @@ function Main({ error, username }) {
                 <input
                   className="form__input form__input--elevation"
                   placeholder="метры"
+                />
+              </div>
+              <div className="form__row form__row--hidden">
+                <label className="form__label">Высота</label>
+                <input
+                  className="form__input form__input--elevation"
+                  placeholder="метры"
+                />
+              </div>
+              <div className="form__row form__row--hidden">
+                <label className="form__label">Стиль</label>
+                <input
+                  className="form__input form__input--style"
+                  placeholder="кроль"
                 />
               </div>
               <button className="form__btn">OK</button>

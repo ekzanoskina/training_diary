@@ -93,13 +93,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.75rem 1.5rem;
+  border-bottom: 5px solid var(--color-brand--2);
 }
-.workout--running {
+/* .workout--running {
   border-bottom: 5px solid var(--color-brand--2);
 }
 .workout--cycling {
   border-bottom: 5px solid var(--color-brand--2);
-}
+} */
 
 .workout__title {
   font-size: 1.7rem;

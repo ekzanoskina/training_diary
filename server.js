@@ -5,6 +5,7 @@ const express = require("express");
 // routes
 const indexRoutes = require('./routes/index.routes');
 const authRoutes = require("./routes/auth.routes");
+const workoutRoutes = require('./routes/workout.routes')
 
 
 const serverConfig = require('./config/serverConfig');
@@ -18,6 +19,7 @@ serverConfig(app)
 // маршрутизация приложения
 app.use('/', indexRoutes);
 app.use("/auth", authRoutes);
+app.use('/workouts', workoutRoutes)
 
 // Получаем порт из переменной окружения или используем 3000 по умолчанию
 const PORT = process.env.PORT || 3000;

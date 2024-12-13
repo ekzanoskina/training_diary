@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert('Cyclings', [
       {
         date: new Date(2023, 8, 24, 23, 59, 59),
-        userId: 1,
+        userId: 2,
         locationId: 1,
         distance: 20.0,
         duration: 60,
@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         date: new Date(2022, 7, 31, 23, 59, 59),
-        userId: 1,
+        userId: 3,
         locationId: 2,
         distance: 15.0,
         duration: 45,

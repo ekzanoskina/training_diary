@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert('Swimmings', [
       {
         date: new Date(),
-        userId: 1,
+        userId: 3,
         locationId: 1,
         distance: 1000, // в метрах
         duration: 30, // в минутах
@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         date: new Date(),
-        userId: 1,
+        userId: 2,
         locationId: 2,
         distance: 500, // в метрах
         duration: 15, // в минутах

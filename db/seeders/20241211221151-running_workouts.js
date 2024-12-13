@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         date: new Date(2023, 10, 31, 23, 59, 59),
-        userId: 1,
+        userId: 2,
         locationId: 2,
         distance: 10.0,
         duration: 50,
